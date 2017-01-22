@@ -314,6 +314,7 @@ footer {
   height: 99px;
   float: left;
   background: #fff;
+  z-index: 10;
 }
 
 footer a {
@@ -347,6 +348,12 @@ CONTENT
 
 .body2 {
   min-width: 900px;
+}
+
+.body2Inner {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .body2 h1 {
@@ -484,4 +491,58 @@ slider
   bottom: 15px;
   width: 100%;
   text-align: center;
+}
+
+/**************
+
+textik
+
+**************/
+
+/**************
+
+obecne
+
+**************/
+
+.body3 .obrazkyWrap {
+  position: absolute;
+  right: 30px;
+  width: 555px;
+  text-align: center;
+  height: calc(100vh - 241px);
+  overflow: hidden;
+}
+
+.textovaCast {
+  width: calc(100% + 18px);
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  right: -18px;
+  top: 0;
+  z-index: 100;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.textovaCastWrap {
+  overflow: hidden;
+  width: 40%;
+  max-width: 800px;
+  position: absolute;
+  left: 70px;
+  top: 150px;
+  height: calc(100vh - 270px);
+  z-index: 1;
+}
+
+.textovaCast p {
+  margin-bottom: 350px;
+  color: #494949;
+  font-size: 20px;
+}
+
+.body3 .body2Inner {
+  width: 1200px;
 }
