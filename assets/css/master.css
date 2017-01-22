@@ -25,6 +25,11 @@ FONTY
 }
 
 @font-face {
+    font-family: "bol";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
     font-family: "bla";
     src: url("../fonts/Lato-Black.ttf");
 }
@@ -545,4 +550,81 @@ obecne
 
 .body3 .body2Inner {
   width: 1200px;
+}
+
+/**************
+
+kontakt
+
+**************/
+
+/**************
+
+obecne
+
+**************/
+
+.body4 iframe {
+  -webkit-box-shadow: 0px 0px 127px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 127px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 127px 0px rgba(0,0,0,0.4);
+  position: absolute;
+  left: 30px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+.body4 {
+  overflow-y: scroll;
+}
+
+.body4 footer {
+  position: fixed;
+}
+
+.body4 .body2Inner {
+  width: 1100px;
+}
+
+.kontakty {
+  margin-top: 40px;
+  position: absolute;
+  right: 0px;
+  width: 450px;
+}
+
+.kontakty span {
+  display: block;
+  font-family: bol;
+  font-size: 21px;
+  margin-bottom: 1px;
+}
+
+.kontakty div {
+  margin-bottom: 40px;
+}
+
+.kontakty a {
+  color: #494949;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.kontakty p {
+  color: #494949;
+  font-size: 29px;
+  margin-top: 5px;
+  line-height: 40px;
+}
+
+.email span {
+  color: #5399F7;
+}
+
+.telefon span {
+  color: #D483E4;
+}
+
+.adresa span {
+  color: #34E5AE;
 }
