@@ -30,7 +30,7 @@ setInterval(cela, 21000);
 
 // DALSI
 
-var obrazky = [["JOJO tohle je popisek", "../img/obrazky/test.png"], ["dalsi", "../img/obrazky/test.png"]];
+var obrazky = [["JOJO tohle je popisek", "assets/img/obrazky/test.png"], ["dalsi", "assets/img/obrazky/test.png"]];
 var cislo = 0;
 
 $(".slider span:last-child").click(function(){
@@ -42,6 +42,7 @@ $(".Gobrazek").click(function(){
   cislo = parseInt(element.children().children().attr("alt"));
 
   $(".lista p").text(obrazky[cislo][0]);
+  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
   $(".slider").css("display", "block");
 });
 
@@ -53,6 +54,8 @@ $(".lista a:first-child").click(function(){
   }
 
   $(".lista p").text(obrazky[cislo][0]);
+  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
+
 });
 
 $(".lista a:last-child").click(function(){
@@ -63,6 +66,6 @@ $(".lista a:last-child").click(function(){
   }
 
   $(".lista p").text(obrazky[cislo][0]);
-
+  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
 
 });

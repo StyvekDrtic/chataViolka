@@ -474,9 +474,9 @@ slider
   margin: 0 auto;
   height: calc(100% - 85px);
   background: url("../img/obrazky/test.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
 }
 
 .slider span:last-child {
