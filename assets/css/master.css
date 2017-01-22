@@ -38,12 +38,16 @@ body {
   position: relative;
   font-family: reg;
   margin: 0 auto;
+  overflow-y:hidden;
+  overflow-x:hidden;
 }
 
 .bubliny {
   position: absolute;
   width: 50%;
   top: calc(50% - 465px);
+  -webkit-transition: top 2s;
+  transition: top 2s;
 }
 
 .bublina {
@@ -112,13 +116,24 @@ body {
 }
 
 .hlavni {
-  width: 500px;
+  width: 518px;
   height: 100vh;
   display: inline-block;
   position: absolute;
-  right: 50px;
+  right: -18px;
   top: 0;
   z-index: 100;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.nemitScrollbar {
+  overflow: hidden;
+  width: 500px;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  height: 100vh;
 }
 
 .hlavni h1 {
@@ -161,13 +176,13 @@ body {
 
 .mlzeni:last-child {
   bottom: 0;
-  background: rgba(248,80,50,0);
-  background: -moz-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,0)), color-stop(30%, rgba(255,255,255,0.48)), color-stop(63%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
-  background: -o-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
-  background: -ms-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
-  background: linear-gradient(to bottom, rgba(248,80,50,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
+  background: rgba(255,255,255,0);
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(30%, rgba(255,255,255,0.48)), color-stop(63%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.48) 30%, rgba(255,255,255,1) 63%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#ffffff', GradientType=0 );
 }
 
@@ -199,6 +214,7 @@ body {
 .menu {
   width: 350px;
   float: right;
+  padding-bottom: 100px;
 }
 
 .menu ul {
