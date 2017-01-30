@@ -30,6 +30,20 @@ setInterval(cela, 21000);
 
 // DALSI
 
+var ubytovani = [["", "assets/img/obrazky/IMG_5745.JPG"], ["", "assets/img/obrazky/IMG_5746.JPG"], ["", "assets/img/obrazky/IMG_5749.JPG"],
+["", "assets/img/obrazky/IMG_5753.JPG"], ["", "assets/img/obrazky/IMG_5760.JPG"], ["", "assets/img/obrazky/IMG_5761.JPG"],
+["", "assets/img/obrazky/IMG_5763.JPG"], ["", "assets/img/obrazky/IMG_5764.JPG"], ["", "assets/img/obrazky/IMG_5765.JPG"],
+["", "assets/img/obrazky/IMG_5766.JPG"], ["", "assets/img/obrazky/IMG_5769.JPG"], ["", "assets/img/obrazky/IMG_5771.JPG"],
+["", "assets/img/obrazky/IMG_5772.JPG"], ["", "assets/img/obrazky/IMG_5776.JPG"], ["", "assets/img/obrazky/IMG_5779.JPG"]];
+
+var okoli = [["", "assets/img/okoli/sumava-01.jpg"], ["", "assets/img/okoli/sumava-03-filipova-hut.jpg"], ["", "assets/img/okoli/sumava-04-klostermannova-chata.jpg"], ["", "assets/img/okoli/sumava-05.jpg"]];
+
+var historie = [
+              ["", "assets/img/historie/historie-01.jpg"], ["", "assets/img/historie/historie-02.jpg"], ["", "assets/img/historie/historie-03.jpg"],
+              ["", "assets/img/historie/historie-04.jpg"], ["", "assets/img/historie/historie-05.jpg"]
+            ];
+
+
 var obrazky = [
               ["", "assets/img/obrazky/IMG_1.JPG"], ["", "assets/img/obrazky/IMG_2.JPG"], ["", "assets/img/obrazky/IMG_3.JPG"],
               ["", "assets/img/obrazky/IMG_4.JPG"], ["", "assets/img/obrazky/IMG_5.JPG"], ["", "assets/img/obrazky/IMG_6.JPG"],
@@ -54,35 +68,149 @@ $(".slider span:last-child").click(function(){
   $(".slider").css("display", "none");
 });
 
-$(".Gobrazek").click(function(){
+// GALERIE
+
+$(".galerie .Gobrazek").click(function(){
   var element = $(this);
   cislo = parseInt(element.children().children().attr("alt"));
 
-  $(".lista p").text(obrazky[cislo][0]);
-  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
-  $(".slider").css("display", "block");
+  $(".galerie .lista p").text(obrazky[cislo][0]);
+  $(".galerie .obraz").css("background", "url('"+obrazky[cislo][1]+"')");
+  $(".galerie .slider").css("display", "block");
 });
 
-$(".lista a:first-child").click(function(){
+$(".galerie .lista a:first-child").click(function(){
   cislo--;
 
   if (cislo < 0) {
     cislo = 0;
   }
 
-  $(".lista p").text(obrazky[cislo][0]);
-  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
+  $(".galerie .lista p").text(obrazky[cislo][0]);
+  $(".galerie .obraz").css("background", "url('"+obrazky[cislo][1]+"')");
 
 });
 
-$(".lista a:last-child").click(function(){
+$(".galerie .lista a:last-child").click(function(){
   cislo++;
 
   if (cislo >= obrazky.length) {
     cislo = obrazky.length - 1;
   }
 
-  $(".lista p").text(obrazky[cislo][0]);
-  $(".obraz").css("background", "url('"+obrazky[cislo][1]+"')");
+  $(".galerie .lista p").text(obrazky[cislo][0]);
+  $(".galerie .obraz").css("background", "url('"+obrazky[cislo][1]+"')");
+
+});
+
+
+
+
+// HISTORIE
+
+$(".historiee .Gobrazek").click(function(){
+  var element = $(this);
+  cislo = parseInt(element.children().children().attr("alt"));
+
+  $(".historiee .lista p").text(historie[cislo][0]);
+  $(".historiee .obraz").css("background", "url('"+historie[cislo][1]+"')");
+  $(".historiee .slider").css("display", "block");
+});
+
+$(".historiee .lista a:first-child").click(function(){
+  cislo--;
+
+  if (cislo < 0) {
+    cislo = 0;
+  }
+
+  $(".historiee .lista p").text(historie[cislo][0]);
+  $(".historiee .obraz").css("background", "url('"+historie[cislo][1]+"')");
+
+});
+
+$(".historiee .lista a:last-child").click(function(){
+  cislo++;
+
+  if (cislo >= historie.length) {
+    cislo = historie.length - 1;
+  }
+
+  $(".historiee .lista p").text(historie[cislo][0]);
+  $(".historiee .obraz").css("background", "url('"+historie[cislo][1]+"')");
+
+});
+
+
+
+
+// OKOLI
+
+$(".okolii .Gobrazek").click(function(){
+  var element = $(this);
+  cislo = parseInt(element.children().children().attr("alt"));
+
+  $(".okolii .lista p").text(okoli[cislo][0]);
+  $(".okolii .obraz").css("background", "url('"+okoli[cislo][1]+"')");
+  $(".okolii .slider").css("display", "block");
+});
+
+$(".okolii .lista a:first-child").click(function(){
+  cislo--;
+
+  if (cislo < 0) {
+    cislo = 0;
+  }
+
+  $(".okolii .lista p").text(okoli[cislo][0]);
+  $(".okolii .obraz").css("background", "url('"+okoli[cislo][1]+"')");
+
+});
+
+$(".okolii .lista a:last-child").click(function(){
+  cislo++;
+
+  if (cislo >= okoli.length) {
+    cislo = okoli.length - 1;
+  }
+
+  $(".okolii .lista p").text(okoli[cislo][0]);
+  $(".okolii .obraz").css("background", "url('"+okoli[cislo][1]+"')");
+
+});
+
+
+// UBYTOVANI
+
+$(".ubytovanii .Gobrazek").click(function(){
+  var element = $(this);
+  cislo = parseInt(element.children().children().attr("alt"));
+
+  $(".ubytovanii .lista p").text(ubytovani[cislo][0]);
+  $(".ubytovanii .obraz").css("background", "url('"+ubytovani[cislo][1]+"')");
+  $(".ubytovanii .slider").css("display", "block");
+});
+
+$(".ubytovanii .lista a:first-child").click(function(){
+  cislo--;
+
+  if (cislo < 0) {
+    cislo = 0;
+  }
+
+  $(".ubytovanii .lista p").text(ubytovani[cislo][0]);
+  $(".ubytovanii .obraz").css("background", "url('"+ubytovani[cislo][1]+"')");
+
+});
+
+$(".ubytovanii .lista a:last-child").click(function(){
+  cislo++;
+
+  if (cislo >= ubytovani.length) {
+    cislo = ubytovani.length - 1;
+  }
+
+  $(".ubytovanii .lista p").text(ubytovani[cislo][0]);
+  $(".ubytovanii .obraz").css("background", "url('"+ubytovani[cislo][1]+"')");
 
 });

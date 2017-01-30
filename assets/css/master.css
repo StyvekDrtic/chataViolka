@@ -142,6 +142,21 @@ BUBLINY
   left: 30px;
 }
 
+.historie {
+  background: url("../img/historie/historie-01.jpg") !important;
+  background-size: cover !important;
+}
+
+.okoli {
+  background: url("../img/okoli/sumava-01.jpg") !important;
+  background-size: cover !important;
+}
+
+.ubytovani {
+  background: url("../img/obrazky/min/IMG_5766-min.JPG") !important;
+  background-size: cover !important;
+}
+
 .obrazek {
   background: url("../img/img.jpg");
   background-size: cover;
@@ -409,16 +424,17 @@ CONTENT
   border-radius: 25px;
   margin: 30px;
   display: inline-block;
+  width: 214px;
 }
 
 .Gobrazek:nth-last-child(1) {
   margin-bottom: 100px;
 }
-
+/*
 .Gobrazek:nth-last-child(2) {
   margin-bottom: 100px;
 }
-/*
+
 .Gobrazek:nth-last-child(3) {
   margin-bottom: 100px;
 }
@@ -432,8 +448,9 @@ CONTENT
 
 .Gobrazek img {
   padding: 0 20px;
-  height: 130px;
+  max-height: 130px;
   vertical-align: middle;
+  max-width: 80%;
 }
 
 .mlzeniD {
@@ -726,4 +743,29 @@ obecne
 
 .cenik {
   width: 90%;
+}
+
+.sportazabava {
+  width: 100%;
+  max-width: 1050px;
+}
+
+.textikk .Gobrazek:last-child {
+  margin-bottom: 30px;
+}
+
+.historiee .Gobrazek:last-child {
+  margin-bottom: 100px;
+}
+
+.okolii .Gobrazek:last-child {
+  margin-bottom: 100px;
+}
+
+.okolii .Gobrazek:nth-last-child(2) {
+  margin-bottom: 100px;
+}
+
+.ubytovanii .Gobrazek:last-child {
+  margin-bottom: 100px;
 }
