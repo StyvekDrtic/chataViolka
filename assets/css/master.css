@@ -50,7 +50,6 @@ html {
 }
 
 body {
-  max-height: 100vh;
   width: 1200px;
   position: relative;
   font-family: reg;
@@ -179,6 +178,24 @@ PRAVO
   width: calc(50% - 30px);
   position: absolute;
   right: 30px;
+}
+
+.prava span {
+  font-size: 21px;
+  color: #6D6D6D;
+}
+
+.prava1 {
+  padding-bottom: 20px;
+}
+
+.prava2 {
+  padding-top: 20px;
+}
+
+.prava .cer {
+  color: #F8747F;
+  font-family: bol;
 }
 
 .hlavni {
@@ -644,4 +661,69 @@ obecne
 
 .adresa span {
   color: #34E5AE;
+}
+
+.textikk .mlzeniD {
+  bottom: 100px;
+}
+
+.textikk p {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.textikk p:last-child {
+  margin-bottom: 350px;
+  margin-top: 0;
+}
+
+.textikk .textovaCast ul:last-child {
+  margin-bottom: 350px;
+}
+
+.textikk h4 {
+  font-family: bol;
+  font-size: 28px;
+  color: #494949;
+}
+
+.textikk .textovaCast li {
+  color: #494949;
+  font-size: 20px;
+}
+
+.textikk h3 {
+  font-family: bol;
+  font-size: 30px;
+  color: #494949;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.textikk h2 {
+  font-family: bol;
+  font-size: 38px;
+  color: #494949;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.textikk .textovaCast a {
+  color: #5399F7;
+}
+
+.textikk .textovaCast a:focus {
+  color: #5399F7;
+}
+
+.textikk .textovaCast a:active {
+  color: #5399F7;
+}
+
+.bold {
+  font-family: bol;
+}
+
+.cenik {
+  width: 90%;
 }
