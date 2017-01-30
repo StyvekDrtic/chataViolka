@@ -191,6 +191,7 @@ PRAVO
   z-index: 100;
   overflow-y: scroll;
   overflow-x: hidden;
+  padding-right: 18px;
 }
 
 .nemitScrollbar {
@@ -217,7 +218,7 @@ PRAVO
   font-size: 18px;
   width: 440px;
   position: relative;
-  right: -55px;
+  right: -75px;
 }
 
 .cena {
@@ -361,6 +362,10 @@ CONTENT
   position: relative;
 }
 
+.body2InnerG {
+  width: 1100px;
+}
+
 .body2 h1 {
   font-size: 80px;
   font-family: med;
@@ -389,6 +394,18 @@ CONTENT
   display: inline-block;
 }
 
+.Gobrazek:nth-last-child(1) {
+  margin-bottom: 100px;
+}
+
+.Gobrazek:nth-last-child(2) {
+  margin-bottom: 100px;
+}
+/*
+.Gobrazek:nth-last-child(3) {
+  margin-bottom: 100px;
+}
+*/
 .obrazekWrap {
   display: table-cell;
   text-align: center;
@@ -404,7 +421,7 @@ CONTENT
 
 .mlzeniD {
   position: absolute;
-  bottom: 100px;
+  bottom: 0;
   z-index: 50;
   width: 100%;
   height: 100px;
@@ -420,7 +437,7 @@ CONTENT
 
 .obrazkyWrap {
   position: relative;
-  width: calc(100% - 150px);
+  /*width: calc(100% - 150px);*/
   margin: 0 auto;
   text-align: center;
   height: calc(100vh - 241px);
