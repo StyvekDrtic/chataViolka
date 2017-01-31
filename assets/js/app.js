@@ -1,3 +1,19 @@
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-91209242-1', 'auto');
+ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
 function dolni() {
   $(".bubliny").css("top", "calc(50% - 766px)");
 }
@@ -45,9 +61,9 @@ var historie = [
 
 
 var obrazky = [
-              ["", "assets/img/obrazky/IMG_1.JPG"], ["", "assets/img/obrazky/IMG_2.JPG"], ["", "assets/img/obrazky/IMG_3.JPG"],
-              ["", "assets/img/obrazky/IMG_4.JPG"], ["", "assets/img/obrazky/IMG_5.JPG"], ["", "assets/img/obrazky/IMG_6.JPG"],
-              ["", "assets/img/obrazky/IMG_7.JPG"], ["", "assets/img/obrazky/IMG_8.JPG"], ["", "assets/img/obrazky/IMG_9.JPG"],
+              ["", "assets/img/obrazky/IMG_1.jpg"], ["", "assets/img/obrazky/IMG_2.jpg"], ["", "assets/img/obrazky/IMG_3.jpg"],
+              ["", "assets/img/obrazky/IMG_4.jpg"], ["", "assets/img/obrazky/IMG_5.jpg"], ["", "assets/img/obrazky/IMG_6.jpg"],
+              ["", "assets/img/obrazky/IMG_7.jpg"], ["", "assets/img/obrazky/IMG_8.jpg"], ["", "assets/img/obrazky/IMG_9.jpg"],
 
               ["", "assets/img/obrazky/IMG_4420.JPG"], ["", "assets/img/obrazky/IMG_4423.JPG"], ["", "assets/img/obrazky/IMG_4428.JPG"],
               ["", "assets/img/obrazky/IMG_4430.JPG"], ["", "assets/img/obrazky/IMG_4919.JPG"], ["", "assets/img/obrazky/IMG_4921.JPG"],

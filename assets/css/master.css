@@ -75,6 +75,7 @@ BUBLINY
   top: calc(50% - 465px);
   -webkit-transition: top 2s;
   transition: top 2s;
+  height: 0 !important;
 }
 
 .bublina {
@@ -475,11 +476,15 @@ CONTENT
 
 .obrazkyWrap {
   position: relative;
-  /*width: calc(100% - 150px);*/
+  /*width: calc(100% - 150px) !important;*/
   margin: 0 auto;
   text-align: center;
   height: calc(100vh - 241px);
   overflow: hidden;
+}
+
+.galerie .obrazekWrap {
+  width: calc(100% - 150px) !important;
 }
 
 /**************
@@ -691,6 +696,7 @@ obecne
 .textikk p {
   margin-bottom: 20px;
   margin-top: 0;
+  width: 95%;
 }
 
 .textikk p:last-child {
