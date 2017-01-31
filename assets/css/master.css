@@ -214,16 +214,16 @@ PRAVO
 }
 
 .hlavni {
-  width: 518px;
+  width: 516px;
   height: 100vh;
   display: inline-block;
   position: absolute;
-  right: -18px;
+  right: -16px;
   top: 0;
   z-index: 100;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding-right: 18px;
+  padding-right: 16px;
 }
 
 .nemitScrollbar {
@@ -279,7 +279,7 @@ PRAVO
 }
 
 .menu {
-  width: 350px;
+  width: 380px;
   float: right;
   padding-bottom: 100px;
 }
@@ -323,6 +323,10 @@ PRAVO
 
 .his {
   background: #D483E5;
+}
+
+.cen {
+  background: #16a085;
 }
 
 /**************
@@ -410,8 +414,8 @@ CONTENT
 }
 
 .obrazky {
-  width: calc(100% + 18px);
-  right: -18px;
+  width: calc(100% + 16px);
+  right: -16px;
   margin: 0 auto;
   text-align: center;
   height: 100%;
@@ -571,11 +575,11 @@ obecne
 }
 
 .textovaCast {
-  width: calc(100% + 18px);
+  width: calc(100% + 16px);
   height: 100vh;
   display: inline-block;
   position: absolute;
-  right: -18px;
+  right: -16px;
   top: 0;
   z-index: 100;
   overflow-y: scroll;
