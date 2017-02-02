@@ -54,7 +54,6 @@ body {
   position: relative;
   font-family: reg;
   margin: 0 auto;
-  overflow-y:hidden;
 }
 
 /**************
@@ -190,6 +189,10 @@ PRAVO
 
 **************/
 
+.homepage {
+  overflow-y: hidden;
+}
+
 .prava {
   width: calc(50% - 30px);
   position: absolute;
@@ -242,16 +245,27 @@ PRAVO
   color: #494949;
   text-align: right;
   margin-bottom: 15px;
+  margin-top: 40px;
 }
 
 .hlavni p {
   color: #494949;
   text-align: right;
-  margin-top: 130px;
+  margin-top: 120px;
   font-size: 18px;
   width: 440px;
   position: relative;
   right: -75px;
+}
+
+.kvilda {
+  color: #34E5AE;
+  font-size: 44px;
+  font-family: bol;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 22px;
+  text-align: right;
 }
 
 .cena {
@@ -282,7 +296,7 @@ PRAVO
 .menu {
   width: 380px;
   float: right;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
 }
 
 .menu ul {
@@ -304,6 +318,14 @@ PRAVO
 
 .uby {
   background: #F35C6C;
+}
+
+.hp {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #494949;
+  box-shadow: inset 0 0 0 5px #494949;
 }
 
 .oko {
@@ -339,7 +361,6 @@ GALERIE
 .body2 {
   margin: 0;
   width: 100%;
-  height: 100vh;
 }
 
 /**************
@@ -350,11 +371,10 @@ DOLNI MENU
 
 footer {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   border-top: 1px solid #979797;
-  height: 99px;
   float: left;
   background: #fff;
   z-index: 10;
@@ -372,11 +392,13 @@ footer a {
 }
 
 footer a:first-child {
-  margin-left: 20px;
+
 }
 
 footer ul {
   padding: 0;
+  margin-left: 20px;
+  margin-bottom: 17px;
 }
 
 footer li {
@@ -415,12 +437,10 @@ CONTENT
 }
 
 .obrazky {
-  width: calc(100% + 16px);
-  right: -16px;
-  margin: 0 auto;
+  width: calc(50%);
+  right: 0px;
+  float: right;
   text-align: center;
-  height: 100%;
-  overflow-y: scroll;
 }
 
 .Gobrazek {
@@ -433,7 +453,7 @@ CONTENT
 }
 
 .Gobrazek:nth-last-child(1) {
-  margin-bottom: 100px;
+  margin-bottom: 230px;
 }
 /*
 .Gobrazek:nth-last-child(2) {
@@ -493,6 +513,15 @@ slider
 
 **************/
 
+.sliderWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -100;
+}
+
 .slider {
   z-index:  1111;
   max-width: 80%;
@@ -504,10 +533,10 @@ slider
   -moz-box-shadow: 0px 0px 127px 0px rgba(0,0,0,0.4);
   box-shadow: 0px 0px 127px 0px rgba(0,0,0,0.4);
   position: absolute;
-  top: calc(100vh/2 - 250px);
+  top: calc(100vh/3 - 400px);
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  left: 0; bottom: 0; right: 0;
   display: none;
 }
 
@@ -580,15 +609,11 @@ obecne
 }
 
 .textovaCast {
-  width: calc(100% + 16px);
-  height: 100vh;
+  width: calc(50% - 50px);
+  margin-left: 50px;
   display: inline-block;
-  position: absolute;
-  right: -16px;
-  top: 0;
   z-index: 100;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  margin-top: 30px;
 }
 
 .textovaCastWrap {
@@ -598,14 +623,13 @@ obecne
   position: absolute;
   left: 70px;
   top: 150px;
-  height: calc(100vh - 270px);
   z-index: 1;
 }
 
 .textovaCast p {
   margin-bottom: 350px;
   color: #494949;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .body3 .body2Inner {
@@ -631,7 +655,7 @@ obecne
   position: absolute;
   left: 30px;
   margin-top: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 230px;
 }
 
 .body4 {
@@ -656,25 +680,31 @@ obecne
 .kontakty span {
   display: block;
   font-family: bol;
-  font-size: 21px;
-  margin-bottom: 1px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .kontakty div {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .kontakty a {
   color: #494949;
-  font-size: 29px;
+  font-size: 22px;
   text-decoration: none;
 }
 
 .kontakty p {
   color: #494949;
-  font-size: 29px;
-  margin-top: 5px;
+  font-size: 22px;
   line-height: 40px;
+  margin-top: -5px;
+}
+
+.kontakty h3 {
+  font-size: 30px;
+  color: #34E5AE;
+  font-family: bol;
 }
 
 .email span {
@@ -686,11 +716,11 @@ obecne
 }
 
 .adresa span {
-  color: #34E5AE;
+  color: #FFC360;
 }
 
 .textikk .mlzeniD {
-  bottom: 100px;
+  top: -101px;
 }
 
 .textikk p {
@@ -700,7 +730,7 @@ obecne
 }
 
 .textikk p:last-child {
-  margin-bottom: 350px;
+  margin-bottom: 230px;
   margin-top: 0;
 }
 
@@ -752,12 +782,23 @@ obecne
 }
 
 .cenik {
-  width: 90%;
+  width: calc(100% - 60px);
+  margin: auto 30px;
+}
+
+.cenikL {
+  width: 45%;
+  display: inline-block;
+}
+
+.cenikP {
+  width: 45%;
+  float: right;
+  display: inline-block;
 }
 
 .sportazabava {
   width: 100%;
-  max-width: 1050px;
 }
 
 .textikk .Gobrazek:last-child {
@@ -777,5 +818,13 @@ obecne
 }
 
 .ubytovanii .Gobrazek:last-child {
-  margin-bottom: 100px;
+  margin-bottom: 230px;
+}
+
+.galerie .obrazky {
+  width: 100%;
+}
+
+.galerie .mlzeniD {
+  top: -101px !important;
 }

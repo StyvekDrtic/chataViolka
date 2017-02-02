@@ -82,11 +82,14 @@ var cislo = 0;
 
 $(".slider span:last-child").click(function(){
   $(".slider").css("display", "none");
+  $(".sliderWrap").css("z-index", "-100");
 });
 
 // GALERIE
 
 $(".galerie .Gobrazek").click(function(){
+  $(".sliderWrap").css("z-index", "100");
+
   var element = $(this);
   cislo = parseInt(element.children().children().attr("alt"));
 
@@ -125,6 +128,8 @@ $(".galerie .lista a:last-child").click(function(){
 // HISTORIE
 
 $(".historiee .Gobrazek").click(function(){
+  $(".sliderWrap").css("z-index", "100");
+
   var element = $(this);
   cislo = parseInt(element.children().children().attr("alt"));
 
@@ -163,6 +168,8 @@ $(".historiee .lista a:last-child").click(function(){
 // OKOLI
 
 $(".okolii .Gobrazek").click(function(){
+  $(".sliderWrap").css("z-index", "100");
+
   var element = $(this);
   cislo = parseInt(element.children().children().attr("alt"));
 
@@ -199,6 +206,8 @@ $(".okolii .lista a:last-child").click(function(){
 // UBYTOVANI
 
 $(".ubytovanii .Gobrazek").click(function(){
+  $(".sliderWrap").css("z-index", "100");
+
   var element = $(this);
   cislo = parseInt(element.children().children().attr("alt"));
 
