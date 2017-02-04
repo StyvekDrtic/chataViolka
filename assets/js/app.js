@@ -55,8 +55,8 @@ var ubytovani = [["", "assets/img/obrazky/IMG_5745.JPG"], ["", "assets/img/obraz
 var okoli = [["", "assets/img/okoli/sumava-01.jpg"], ["", "assets/img/okoli/sumava-03-filipova-hut.jpg"], ["", "assets/img/okoli/sumava-04-klostermannova-chata.jpg"], ["", "assets/img/okoli/sumava-05.jpg"]];
 
 var historie = [
-              ["", "assets/img/historie/historie-01.jpg"], ["", "assets/img/historie/historie-02.jpg"], ["", "assets/img/historie/historie-03.jpg"],
-              ["", "assets/img/historie/historie-04.jpg"], ["", "assets/img/historie/historie-05.jpg"]
+              ["", "assets/img/historie/historie-05.jpg"], ["", "assets/img/historie/historie-01.jpg"], ["", "assets/img/historie/historie-02.jpg"], ["", "assets/img/historie/historie-03.jpg"],
+              ["", "assets/img/historie/historie-04.jpg"]
             ];
 
 
