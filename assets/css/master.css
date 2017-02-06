@@ -280,7 +280,7 @@ PRAVO
 }
 
 .lomitko {
-  margin: 0 0px;
+  margin: 0 -2px;
 }
 
 /*
@@ -753,7 +753,7 @@ obecne
 
 .textikk .textovaCast li {
   color: #494949;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .textikk h3 {
@@ -817,7 +817,7 @@ obecne
 }
 
 .historiee .Gobrazek:last-child {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 .okolii .Gobrazek:last-child {
