@@ -143,7 +143,7 @@ BUBLINY
 }
 
 .historie {
-  background: url("../img/historie/historie-05.jpg") !important;
+  background: url("../img/obrazky/min/IMG_1-min.jpg") !important;
   background-size: cover !important;
 }
 
@@ -709,8 +709,8 @@ obecne
 }
 
 .kontakty h3 {
-  font-size: 30px;
-  color: #34E5AE;
+  font-size: 22px;
+  color: #494949;
   font-family: bol;
 }
 
@@ -816,10 +816,11 @@ obecne
   margin-bottom: 30px;
 }
 
+/*
 .historiee .Gobrazek:last-child {
   margin-bottom: 250px;
 }
-
+*/
 .okolii .Gobrazek:last-child {
   margin-bottom: 100px;
 }
