@@ -56,7 +56,8 @@ var okoli = [["", "assets/img/okoli/sumava-01.jpg"], ["", "assets/img/okoli/suma
 
 var historie = [
               ["", "assets/img/historie/historie-05.jpg"], ["", "assets/img/obrazky/IMG_1.jpg"], ["", "assets/img/obrazky/IMG_2.jpg"],
-              ["", "assets/img/historie/historie-04.jpg"]
+              ["", "assets/img/historie/historie-04.jpg"],
+              ["", "assets/img/historie/01.jpg"], ["", "assets/img/historie/04.jpg"], ["", "assets/img/historie/09.jpg"], ["", "assets/img/historie/10.jpg"]
             ];
 
 

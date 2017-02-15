@@ -816,11 +816,15 @@ obecne
   margin-bottom: 30px;
 }
 
-/*
+
 .historiee .Gobrazek:last-child {
   margin-bottom: 250px;
 }
-*/
+
+.historiee .Gobrazek:nth-last-child(2) {
+  margin-bottom: 250px;
+}
+
 .okolii .Gobrazek:last-child {
   margin-bottom: 100px;
 }
