@@ -62,6 +62,22 @@ var historie = [
 
 
 var obrazky = [
+              ["", "assets/img/obrazky/novy_1.JPG"], ["", "assets/img/obrazky/novy_2.JPG"], ["", "assets/img/obrazky/novy_3.JPG"],
+              ["", "assets/img/obrazky/novy_4.JPG"], ["", "assets/img/obrazky/novy_5.JPG"], ["", "assets/img/obrazky/novy_6.JPG"],
+              ["", "assets/img/obrazky/novy_7.JPG"], ["", "assets/img/obrazky/novy_8.JPG"], ["", "assets/img/obrazky/novy_9.JPG"],
+              ["", "assets/img/obrazky/novy_10.JPG"], ["", "assets/img/obrazky/novy_11.JPG"], ["", "assets/img/obrazky/novy_12.JPG"],
+              ["", "assets/img/obrazky/novy_13.JPG"], ["", "assets/img/obrazky/novy_14.JPG"], ["", "assets/img/obrazky/novy_15.JPG"],
+              ["", "assets/img/obrazky/novy_16.JPG"], ["", "assets/img/obrazky/novy_17.JPG"], ["", "assets/img/obrazky/novy_18.JPG"],
+              ["", "assets/img/obrazky/novy_19.JPG"], ["", "assets/img/obrazky/novy_20.JPG"], ["", "assets/img/obrazky/novy_21.JPG"],
+              ["", "assets/img/obrazky/novy_22.JPG"], ["", "assets/img/obrazky/novy_23.JPG"], ["", "assets/img/obrazky/novy_24.JPG"],
+              ["", "assets/img/obrazky/novy_25.JPG"], ["", "assets/img/obrazky/novy_26.JPG"], ["", "assets/img/obrazky/novy_27.JPG"],
+              ["", "assets/img/obrazky/novy_28.JPG"], ["", "assets/img/obrazky/novy_29.JPG"], ["", "assets/img/obrazky/novy_30.JPG"],
+              ["", "assets/img/obrazky/novy_31.JPG"], ["", "assets/img/obrazky/novy_32.JPG"], ["", "assets/img/obrazky/novy_33.JPG"],
+              ["", "assets/img/obrazky/novy_34.JPG"], ["", "assets/img/obrazky/novy_35.JPG"], ["", "assets/img/obrazky/novy_36.JPG"],
+              ["", "assets/img/obrazky/novy_37.JPG"], ["", "assets/img/obrazky/novy_38.JPG"], ["", "assets/img/obrazky/novy_39.JPG"],
+              ["", "assets/img/obrazky/novy_40.JPG"], ["", "assets/img/obrazky/novy_41.JPG"], ["", "assets/img/obrazky/novy_42.JPG"],
+              ["", "assets/img/obrazky/novy_43.JPG"], ["", "assets/img/obrazky/novy_44.JPG"], ["", "assets/img/obrazky/novy_45.JPG"],
+
               ["", "assets/img/obrazky/IMG_1.jpg"], ["", "assets/img/obrazky/IMG_2.jpg"], ["", "assets/img/obrazky/IMG_3.jpg"],
               ["", "assets/img/obrazky/IMG_4.jpg"], ["", "assets/img/obrazky/IMG_5.jpg"], ["", "assets/img/obrazky/IMG_6.jpg"],
               ["", "assets/img/obrazky/IMG_7.jpg"], ["", "assets/img/obrazky/IMG_8.jpg"], ["", "assets/img/obrazky/IMG_9.jpg"],

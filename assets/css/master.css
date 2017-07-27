@@ -472,17 +472,25 @@ CONTENT
 }
 */
 .obrazekWrap {
-  display: table-cell;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
   height: 170px;
+  width: 100% !important;
 }
 
 .Gobrazek img {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   max-height: 130px;
   vertical-align: middle;
   max-width: 80%;
+  /* text-align: center; */
+  /* display: inline-block; */
+  /* margin: 0 auto; */
+  /* width: 49px; */
+  height: calc(130px);
+  padding-top: 20px;
+  width: auto;
 }
 
 .mlzeniD {
@@ -511,7 +519,7 @@ CONTENT
 }
 
 .galerie .obrazekWrap {
-  width: calc(100% - 150px) !important;
+  /* width: calc(100% - 150px) !important; */
 }
 
 /**************
