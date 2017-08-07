@@ -62,9 +62,16 @@ var ubytovani = [["", "assets/img/ubytovani2/uby_1.JPG"],["", "assets/img/ubytov
                 ["", "assets/img/ubytovani2/uby_27.JPG"],["", "assets/img/ubytovani2/uby_28.JPG"],
                 ["", "assets/img/ubytovani2/uby_29.JPG"],["", "assets/img/ubytovani2/uby_30.JPG"],
                 ["", "assets/img/ubytovani2/uby_31.JPG"],["", "assets/img/ubytovani2/uby_32.JPG"]
-              ];
+                ];
 
-var okoli = [["", "assets/img/okoli/sumava-01.jpg"], ["", "assets/img/okoli/sumava-03-filipova-hut.jpg"], ["", "assets/img/okoli/sumava-04-klostermannova-chata.jpg"], ["", "assets/img/okoli/sumava-05.jpg"]];
+var okoli = [["", "assets/img/okoli2/oko_1.JPG"],["", "assets/img/okoli2/oko_2.JPG"],
+            ["", "assets/img/okoli2/oko_3.JPG"],["", "assets/img/okoli2/oko_4.JPG"],
+            ["", "assets/img/okoli2/oko_5.JPG"],["", "assets/img/okoli2/oko_6.JPG"],
+            ["", "assets/img/okoli2/oko_7.JPG"],["", "assets/img/okoli2/oko_8.JPG"],
+            ["", "assets/img/okoli2/oko_9.JPG"],["", "assets/img/okoli2/oko_10.JPG"],
+            ["", "assets/img/okoli2/oko_11.JPG"],["", "assets/img/okoli2/oko_12.JPG"],
+            ["", "assets/img/okoli2/oko_13.JPG"]
+            ];
 
 var historie = [
               ["", "assets/img/historie/historie-05.jpg"], ["", "assets/img/obrazky/IMG_1.jpg"], ["", "assets/img/obrazky/IMG_2.jpg"],
