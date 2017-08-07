@@ -46,11 +46,23 @@ setInterval(cela, 21000);
 
 // DALSI
 
-var ubytovani = [["", "assets/img/obrazky/IMG_5745.JPG"], ["", "assets/img/obrazky/IMG_5746.JPG"], ["", "assets/img/obrazky/IMG_5749.JPG"],
-["", "assets/img/obrazky/IMG_5753.JPG"], ["", "assets/img/obrazky/IMG_5760.JPG"], ["", "assets/img/obrazky/IMG_5761.JPG"],
-["", "assets/img/obrazky/IMG_5763.JPG"], ["", "assets/img/obrazky/IMG_5764.JPG"], ["", "assets/img/obrazky/IMG_5765.JPG"],
-["", "assets/img/obrazky/IMG_5766.JPG"], ["", "assets/img/obrazky/IMG_5769.JPG"], ["", "assets/img/obrazky/IMG_5771.JPG"],
-["", "assets/img/obrazky/IMG_5772.JPG"], ["", "assets/img/obrazky/IMG_5776.JPG"], ["", "assets/img/obrazky/IMG_5779.JPG"]];
+var ubytovani = [["", "assets/img/ubytovani2/uby_1.JPG"],["", "assets/img/ubytovani2/uby_2.JPG"],
+                ["", "assets/img/ubytovani2/uby_3.JPG"],["", "assets/img/ubytovani2/uby_4.JPG"],
+                ["", "assets/img/ubytovani2/uby_5.JPG"],["", "assets/img/ubytovani2/uby_6.JPG"],
+                ["", "assets/img/ubytovani2/uby_7.JPG"],["", "assets/img/ubytovani2/uby_8.JPG"],
+                ["", "assets/img/ubytovani2/uby_9.JPG"],["", "assets/img/ubytovani2/uby_10.JPG"],
+                ["", "assets/img/ubytovani2/uby_11.JPG"],["", "assets/img/ubytovani2/uby_12.JPG"],
+                ["", "assets/img/ubytovani2/uby_13.JPG"],["", "assets/img/ubytovani2/uby_14.JPG"],
+                ["", "assets/img/ubytovani2/uby_15.JPG"],["", "assets/img/ubytovani2/uby_16.JPG"],
+                ["", "assets/img/ubytovani2/uby_17.JPG"],["", "assets/img/ubytovani2/uby_18.JPG"],
+                ["", "assets/img/ubytovani2/uby_19.JPG"],["", "assets/img/ubytovani2/uby_20.JPG"],
+                ["", "assets/img/ubytovani2/uby_21.JPG"],["", "assets/img/ubytovani2/uby_22.JPG"],
+                ["", "assets/img/ubytovani2/uby_23.JPG"],["", "assets/img/ubytovani2/uby_24.JPG"],
+                ["", "assets/img/ubytovani2/uby_25.JPG"],["", "assets/img/ubytovani2/uby_26.JPG"],
+                ["", "assets/img/ubytovani2/uby_27.JPG"],["", "assets/img/ubytovani2/uby_28.JPG"],
+                ["", "assets/img/ubytovani2/uby_29.JPG"],["", "assets/img/ubytovani2/uby_30.JPG"],
+                ["", "assets/img/ubytovani2/uby_31.JPG"],["", "assets/img/ubytovani2/uby_32.JPG"]
+              ];
 
 var okoli = [["", "assets/img/okoli/sumava-01.jpg"], ["", "assets/img/okoli/sumava-03-filipova-hut.jpg"], ["", "assets/img/okoli/sumava-04-klostermannova-chata.jpg"], ["", "assets/img/okoli/sumava-05.jpg"]];
 
